@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="linktree.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+    <link rel="icon" href="icontab.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>LinkTree</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- LOGO LINKTREE -->
+        <div class="logo">
+            <img class="image" src="linktreepjg.png" alt="Linktree icon" />
+            <div class="home">
+                <a href="https://us.puma.com/us/en" target="_blank">About us</a>
+            </div>
+        </div>
+
+        <!-- LINK -->
+        <div class="button">
+            <a href="https://wa.me/6281227561973" target="_blank"
+                class="animate__animated animate__fadeInRight animate">Admin 1</a>
+            <a href="https://wa.me/6282145846104" target="_blank"
+                class="animate__animated animate__fadeInRight animate">Admin 2</a>
+            <a href="https://wa.me/6282133921202" target="_blank"
+                class="animate__animated animate__fadeInRight animate">Admin 3</a>
+        </div>
+
+        <!-- Setting DARK MODE -->
+        <nav>
+            <a href="index.html">HOME</a>
+            <a onclick="darkMode()">DARK MODE</a>
+        </nav>
+    </div>
+
+    <!-- initializing function -->
+    <script>
+        let body = document.body;
+
+        function darkMode() {
+            console.log('hello hell');
+            body.classList.toggle("dark");
+        }
+    </script>
+</body>
+
+</html>
